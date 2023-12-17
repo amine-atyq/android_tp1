@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_ensa"
+            android:scaleType="centerInside"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/name_label" />
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/name_hint" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/first_name_label" />
+
+            <EditText
+                android:id="@+id/firstNameEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/first_name_hint" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/age_label" />
+
+            <EditText
+                android:id="@+id/ageEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/age_hint"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bienvenueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenue_button"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            android:layout_margin="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            />
+
+        <EditText
+            android:id="@+id/txtBienvenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/welcome_message_edittext_hint"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <RadioGroup
+                android:id="@+id/filiereRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/filiere1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/filiere1" />
+                <RadioButton
+                    android:id="@+id/filiere2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/filiere2" />
+                <RadioButton
+                    android:id="@+id/filiere3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/filiere3" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/filieresButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filieres_button"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/white"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/maritalStatusCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/marital_status_checkbox"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp" />
+
+            <Button
+                android:id="@+id/etatFamilialeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etat_familial_button"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

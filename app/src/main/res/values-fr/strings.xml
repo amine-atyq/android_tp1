@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="age_hint">Enter your age</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="first_name_hint">Enter your first name</string>
+    <string name="welcome_message">Welcome to our app!</string>
+    <string name="name_label">Nom :</string>
+    <string name="first_name_label">Prénom :</string>
+    <string name="age_label">Age :</string>
+
+    <string name="filiere1">Master</string>
+    <string name="filiere2">Cycle Ingénieur</string>
+    <string name="filiere3">Années Préparatoires</string>
+
+    <string name="bienvenue_button">BIENVENUE</string>
+    <string name="filieres_button">FILIÈRES</string>
+    <string name="etat_familial_button">ÉTAT FAMILIAL</string>
+    <string name="marital_status_checkbox">Marital Status</string>
+    <string name="welcome_message_edittext_hint">Bienvenue</string>
+</resources>

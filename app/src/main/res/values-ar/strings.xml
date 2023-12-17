@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">التطبيق الأول</string>
+    <string name="age_hint">أدخل عمرك</string>
+    <string name="name_hint">أدخل اسمك</string>
+    <string name="first_name_hint">أدخل اسمك الأول</string>
+    <string name="welcome_message">مرحبا بك في تطبيقنا!</string>
+    <string name="name_label">الاسم :</string>
+    <string name="first_name_label">الاسم الأول :</string>
+    <string name="age_label">العمر :</string>
+
+    <string name="filiere1">ماجستير</string>
+    <string name="filiere2">هندسة</string>
+    <string name="filiere3">سنوات تحضيرية</string>
+
+    <string name="bienvenue_button">أهلا بك</string>
+    <string name="filieres_button">التخصصات</string>
+    <string name="etat_familial_button">الحالة العائلية</string>
+    <string name="marital_status_checkbox">الحالة الزوجية</string>
+    <string name="welcome_message_edittext_hint">رسالة الترحيب</string>
+</resources>
